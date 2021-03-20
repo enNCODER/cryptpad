@@ -30,7 +30,7 @@ var app = Express();
     // fall back to listening on a local address
     // if httpAddress is not a string
     if (typeof(config.httpAddress) !== 'string') {
-        config.httpAddress = 'http://fsdfsfdfds.herokuapp.com';
+        config.httpAddress = '127.0.0.1';
     }
 
     // listen on port 3000 if a valid port number was not provided
